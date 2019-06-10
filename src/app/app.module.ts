@@ -8,7 +8,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from './material.module';
 
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api'; 
-import { DataService } from '../services/data.service'; 
+import { DataService } from './services/data.service'; 
 
 import { HttpClientModule } from '@angular/common/http';
 

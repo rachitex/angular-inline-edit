@@ -1,4 +1,4 @@
-import { Writer } from './writer.model';
+import { Writer } from '../models/writer.model';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
