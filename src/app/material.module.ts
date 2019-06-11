@@ -13,6 +13,7 @@ import {
     MatSelectModule,
     MatTableModule
 } from '@angular/material';
+import {CdkTableModule} from '@angular/cdk/table';
 
 @NgModule({
     imports: [
@@ -27,7 +28,8 @@ import {
         MatSortModule,
         MatTooltipModule,
         MatSelectModule,
-        MatTableModule
+        MatTableModule,
+        CdkTableModule
     ],
     exports: [
         MatIconModule,
@@ -41,7 +43,8 @@ import {
         MatSortModule,
         MatTooltipModule,
         MatSelectModule,
-        MatTableModule
+        MatTableModule,
+        CdkTableModule
     ]
 })
 export class MaterialModule {}
